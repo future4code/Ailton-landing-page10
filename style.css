@@ -121,10 +121,9 @@ button:hover{
 }
 
 /* Formatação página index */
+
 main{
     flex-grow: 1;
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
 }
 
 .corpo1{
@@ -138,6 +137,44 @@ main{
 .corpo3{
     background-color: #468C8C;
 }
+
+/* Formatação página sobre */
+
+#sobre-titulo{
+    text-align: center;
+    margin: 80px 40px;
+    color: #396f7c;
+}
+
+#sobre-nos{
+    background-color: #95e9e0;
+    padding: 28px 140px;
+    color: #182D40;
+    text-align: center;
+    font-size: large;
+}
+
+#sobre-moradias{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    padding: 20px;
+}
+
+.imagem-sobre{
+    width: 600px;
+    height: auto;
+}
+
+#sobre-servicos{
+    background-color: #5b9caa;
+    padding: 20px;
+}
+
+#sobre-desempenho{
+    padding: 20px;
+}
+
 /* Formatação do footer */
 footer{
     height: 60px; 
