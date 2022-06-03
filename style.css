@@ -168,6 +168,85 @@ input {
 }
 /* Formatação do formulario de busca da cidade */
 
+
+
+/* Formatação página sobre */
+
+#sobre-titulo{
+  text-align: center;
+  margin: 80px 40px;
+  color: #396f7c;
+}
+
+#sobre-nos{
+  background-color: #95e9e0;
+  padding: 28px 140px;
+  color: #182D40;
+  text-align: center;
+  font-size: large;
+}
+
+#sobre-moradia{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 120px;
+  column-gap: 12px;
+  margin: 80px 200px;
+  justify-items: center;
+}
+
+.imagem-sobre{
+  width: 400px;
+  height: auto;
+  border-radius: 20px;
+}
+
+#sobre-compartilhada{
+  text-align: left;
+}
+
+#sobre-individual{
+  text-align: right;
+}
+
+#sobre-compartilhada>p, #sobre-individual>p{
+  text-align: justify;
+}
+
+#sobre-servicos{
+  background-color: #95e9e0;
+  color: #182D40;
+  text-align: center;
+  font-size: large;
+  padding: 32px;
+}
+
+#sobre-servicos-observacao{
+  font-size: small;
+}
+
+#sobre-desempenho{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px;
+}
+
+.card-desempenho{
+  width: 160px;
+  height: auto;
+  margin: 16px;
+  text-align: justify;
+}
+
+.numeros{
+  color:#062c4d;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
 /* Formatação do footer */
 footer {
   height: 60px;
