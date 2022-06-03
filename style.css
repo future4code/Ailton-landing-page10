@@ -272,6 +272,19 @@ button {
   display: none;
 }
 
+/*formatacao da pagina busca-imovel*/
+
+#busca-ap{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  row-gap: 12px;
+  column-gap: 120px;
+  margin: 80px 200px;
+  justify-items: center;
+}
+
+
 /* VERSÃO DISPOSITIVOS MÓVEIS */
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
 }
