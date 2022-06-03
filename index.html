@@ -1,84 +1,113 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>F4Life</title>
-</head>
-<body>
-   
+  </head>
+  <body>
     <header>
-        <div class="logo-tit"><img id="logo" src="./imagens/f4life.png" alt=""> <p>F4life</p> </div>
-    
-      <nav>
+       
+        <div class="logo-tit">
+        <img id="logo" src="./imagens/f4life.png" alt="" />
+        <p id="p-header">F4life</p>
+      </div>
+      <input type="checkbox" id="bt_menu" />
+      <label for="bt_menu">&#9776;</label>
+      <nav class="menu">
         <ul class="ul-prin">
-            <li><a href="#"> Home</a></li>
-            <li><a href="#" class="drop-menu"> Buscar Imóveis <img class="img-seta" src="./seta.png" alt=""></a>
-               <ul class="ul-second">
-                   <li class="drop-itens"> <a href="compraUser.html"> Compartilhada</a></li>
-                   <li class="drop-itens"><a href="alugaUser.html"> Individual</a></li>
-               </ul>
-            </li>
-            <li><a href="#" class="drop-menu" > Proprietários <img class="img-seta" src="./seta.png" alt=""></a>
-                <ul class="ul-second">
-                    <li class="drop-itens"> <a href="vendaProp.html"> Compartilhada</a></li>
-                    <li class="drop-itens"><a href="alugaProp.html"> Individual</a></li>
-                </ul>
-            </li>
-            <li><a href="#" class="drop-menu" > Imobiliárias <img class="img-seta" src="./seta.png" alt=""></a>
-            
-                <ul class="ul-second">
-                    <li class="drop-itens"> <a href="vendaImob.html"> Vender</a></li>
-                    <li class="drop-itens"><a href="alugaImob.html"> Alugar</a></li>
-                </ul>
-            </li>
-            
-            <li><a href="sobre.html" class="drop-menu"> Sobre</a></li>
+          <li><a href="#"> Home</a></li>
 
+          <li>
+            <a href="#" class="drop-menu">
+              Buscar Imóveis <img class="img-seta" src="./seta.png" alt=""
+            /></a>
+            <ul class="ul-second">
+              <li class="drop-itens">
+                <a href="compraUser.html"> Compartilhada</a>
+              </li>
+              <li class="drop-itens">
+                <a href="alugaUser.html"> Individual</a>
+              </li>
+            </ul>
+          </li>
 
+          <li>
+            <a href="#" class="drop-menu">
+              Proprietários <img class="img-seta" src="./seta.png" alt=""
+            /></a>
+            <ul class="ul-second">
+              <li class="drop-itens">
+                <a href="vendaProp.html"> Compartilhada</a>
+              </li>
+              <li class="drop-itens">
+                <a href="alugaProp.html"> Individual</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="drop-menu">
+              Imobiliárias <img class="img-seta" src="./seta.png" alt=""
+            /></a>
+
+            <ul class="ul-second">
+              <li class="drop-itens"><a href="vendaImob.html"> Vender</a></li>
+              <li class="drop-itens"><a href="alugaImob.html"> Alugar</a></li>
+            </ul>
+          </li>
+
+          <li><a href="sobre.html" class="drop-menu"> Sobre</a></li>
         </ul>
-    </nav>
-   <button>Login</button>
+      </nav>
+      <button id="btLogin">Login</button>
     </header>
 
-   
-   
-   
-   
     <div class="container">
+      <main>
+        <div class="corpo1">
+          <div class="form-corpo1">
+            <form class="formulario" action="#" method="post">
+              <h1>Alugue seu espaço</h1>
+              <button>Aluguel Quarto</button> <button>Aluguel casa</button>
+              <h2>Cidade:</h2>
+              <input
+                type="text"
+                name="text"
+                id="text"
+                placeholder="Digite a cidade de busca"
+              /><br /><button>Buscar</button>
+            </form>
+          </div>
+          <img
+            class="foto-corpo1"
+            src="./imagens/pexels-binyamin-mellish-186077.jpg"
+            alt=""
+          />
+        </div>
+        <div class="corpo2">ola</div>
+        <div class="corpo3">ola</div>
+      </main>
 
-    
+      <footer id="rodape">
+        <p>Copyright &copy; 2022 - by Grupo Landing page 10</p>
+        <a href="https://www.facebook.com/" target="_blank">
+          <img class="logo-sociais" src="./imagens/facebook.jpg"
+        /></a>
 
-        <main>
+        <a href="https://www.instagram.com/" target="_blank">
+          <img class="logo-sociais1" src="./imagens/instagram.png"
+        /></a>
 
-            <div class="corpo1">ola</div>
-            <div class="corpo2">ola</div>
-            <div class="corpo3">ola</div>
+        <a href="https://www.whatsapp.com/?lang=pt_br" target="_blank">
+          <img class="logo-sociais1" src="./imagens/whatsapp2.png"
+        /></a>
 
-        </main>
-        
-        <footer id="rodape">
-            <p>Copyright &copy; 2022 - by Grupo Landing page 10</p>
-            <a href="https://www.facebook.com/" target="_blank">
-              <img class="logo-sociais" src="./imagens/facebook.jpg" /></a
-            >
-            
-            <a href="https://www.instagram.com/" target="_blank">
-              <img class="logo-sociais1" src="./imagens/instagram.png" /></a
-            >
-            
-            <a href="https://www.whatsapp.com/?lang=pt_br" target="_blank">
-                <img class="logo-sociais1" src="./imagens/whatsapp2.png" /></a
-              >
-              
-              <a href="https://www.linkedin.com/" target="_blank">
-                <img class="logo-sociais" src="./imagens/linkedin.png" /></a
-              >
-          </footer>
+        <a href="https://www.linkedin.com/" target="_blank">
+          <img class="logo-sociais" src="./imagens/linkedin.png"
+        /></a>
+      </footer>
     </div>
-
-    
-</body>
+  </body>
 </html>
