@@ -9,13 +9,10 @@
   </head>
   <body>
     <header>
-       
-        <div class="logo-tit">
+      <div class="logo-tit">
         <img id="logo" src="./imagens/f4life.png" alt="" />
         <p id="p-header">F4life</p>
       </div>
-      <input type="checkbox" id="bt_menu" />
-      <label for="bt_menu">&#9776;</label>
       <nav class="menu">
         <ul class="ul-prin">
           <li><a href="#"> Home</a></li>
@@ -24,70 +21,61 @@
             <a href="#" class="drop-menu">
               Buscar Imóveis <img class="img-seta" src="./seta.png" alt=""
             /></a>
-            <ul class="ul-second">
-              <li class="drop-itens">
-                <a href="compraUser.html"> Compartilhada</a>
-              </li>
-              <li class="drop-itens">
-                <a href="alugaUser.html"> Individual</a>
-              </li>
-            </ul>
           </li>
 
           <li>
             <a href="#" class="drop-menu">
               Proprietários <img class="img-seta" src="./seta.png" alt=""
             /></a>
-            <ul class="ul-second">
-              <li class="drop-itens">
-                <a href="vendaProp.html"> Compartilhada</a>
-              </li>
-              <li class="drop-itens">
-                <a href="alugaProp.html"> Individual</a>
-              </li>
-            </ul>
           </li>
+
           <li>
             <a href="#" class="drop-menu">
               Imobiliárias <img class="img-seta" src="./seta.png" alt=""
             /></a>
-
-            <ul class="ul-second">
-              <li class="drop-itens"><a href="vendaImob.html"> Vender</a></li>
-              <li class="drop-itens"><a href="alugaImob.html"> Alugar</a></li>
-            </ul>
           </li>
 
           <li><a href="sobre.html" class="drop-menu"> Sobre</a></li>
         </ul>
       </nav>
-      <button id="btLogin">Login</button>
+      <div class="clMenu">
+        <button class="btMenu">Menu</button>
+        <div class="divMenu">
+          <a href="#">Home </a>
+          <a href="#"> Buscar Imóveis</a>
+          <a href="#">Proprietários</a>
+          <a href="#">Sobre</a>
+        </div>
+      </div>
     </header>
 
     <div class="container">
       <main>
-        <div class="corpo1">
-          <div class="form-corpo1">
+        <div class="banner">
+          <div class="div-Form">
             <form class="formulario" action="#" method="post">
               <h1>Alugue seu espaço</h1>
+
               <button>Aluguel Quarto</button> <button>Aluguel casa</button>
+
               <h2>Cidade:</h2>
+              <label for="buscar">Buscar</label>
               <input
                 type="text"
                 name="text"
                 id="text"
                 placeholder="Digite a cidade de busca"
-              /><br /><button>Buscar</button>
+              />
+              <label for="preco">Valor do imóvel</label>
+              <input
+                type="number"
+                name="preco"
+                id=""
+                placeholder="Valor do imóvel"
+              />
             </form>
           </div>
-          <img
-            class="foto-corpo1"
-            src="./imagens/pexels-binyamin-mellish-186077.jpg"
-            alt=""
-          />
         </div>
-        <div class="corpo2">ola</div>
-        <div class="corpo3">ola</div>
       </main>
 
       <footer id="rodape">
