@@ -18,9 +18,9 @@ Atualizar
 
 #### Imagens
 
-![Página home desktop](url)
-![Página home mobile](url)
+![Página home desktop](./imagens/home-desktop.png)
+![Página home mobile](./imagens/home-mobile.png)
 ![Página busca desktop](url)
 ![Página busca mobile](url)
-![Página sobre desktop](url)
-![Página sobre mobile](url)
+![Página sobre desktop](./imagens/sobre-desktop.png)
+![Página sobre mobile](./imagens/sobre-mobile.png)
