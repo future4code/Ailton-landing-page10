@@ -158,6 +158,7 @@ main {
   align-items: center;
   justify-content: center;
   box-shadow: 1rem 1rem 1rem black;
+  background-color: #f2f2f2bb;   /* Fundo translúcido */
 }
 input {
   display: block;
@@ -179,7 +180,7 @@ input {
 }
 
 #sobre-nos{
-  background-color: #95e9e0;
+  background-color: #b9d1ff;
   padding: 28px 140px;
   color: #182D40;
   text-align: center;
@@ -192,21 +193,35 @@ input {
   grid-template-rows: repeat(2, 1fr);
   row-gap: 120px;
   column-gap: 12px;
-  margin: 80px 200px;
+  margin: 80px 12vw;
   justify-items: center;
 }
 
-.imagem-sobre{
+#imagem-sobre1{
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+  width: 400px;
+  height: auto;
+  border-radius: 20px;
+}
+
+#imagem-sobre2{
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
   width: 400px;
   height: auto;
   border-radius: 20px;
 }
 
 #sobre-compartilhada{
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
   text-align: left;
 }
 
 #sobre-individual{
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
   text-align: right;
 }
 
@@ -215,7 +230,7 @@ input {
 }
 
 #sobre-servicos{
-  background-color: #95e9e0;
+  background-color: #b9d1ff;
   color: #182D40;
   text-align: center;
   font-size: large;
@@ -286,8 +301,10 @@ button {
 
 
 /* VERSÃO DISPOSITIVOS MÓVEIS */
-@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
-}
+
+/* @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+} */
+
 @media screen and (max-device-width: 800px) {
   .container {
     width: 100%;
@@ -369,4 +386,31 @@ button {
   .clMenu:hover .btMenu {
     background-color: grey;
   }
+
+  /* Página sobre */
+
+  #sobre-nos, #sobre-servicos{
+    padding: 28px 40px;
+  }
+
+  #sobre-moradia{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  #sobre-compartilhada, #sobre-individual{
+    text-align: center;
+    padding: 4px;
+  }
+  #imagem-sobre1, #imagem-sobre2{
+    max-width: 400px;
+    min-width: 200px;
+    height: auto;
+    padding: 4px;
+    margin: 8px;
+  }
+  
 }
+
+
