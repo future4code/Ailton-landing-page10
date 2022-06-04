@@ -291,20 +291,31 @@ button {
 
 #busca-ap{
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(1, 1fr);
-  row-gap: 12px;
-  column-gap: 120px;
-  margin: 80px 200px;
+  row-gap: 24px;
+  column-gap: 12px;
+  margin: 80px 80px;
   justify-items: center;
 }
 
 .busca-imagem{
-  width: 400px;
-  height: auto;
+  width: 250px;
+  height: 210px;
   border-radius: 20px;
 }
 
+.box-ap{
+  width: 200px;
+  height: auto;
+}
+
+.formata-texto{
+  border-top: 5px solid #b9d1ff;
+}
+.formata-texto > p{
+  color:#386d7a;
+}
 /* VERSÃO DISPOSITIVOS MÓVEIS */
 
 /* @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
