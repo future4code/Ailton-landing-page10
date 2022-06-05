@@ -447,4 +447,19 @@ footer>a {
 
   /* Página busca-imóvel */
 
+  #busca-ap{
+    max-width: 100vw;
+    display:flex;
+    flex-wrap: wrap;
+    margin: 32px 20vw;
+  }
+
+  #titulo-busca{
+    font-size:large;
+    margin: 24px;
+  }
+
+  #botao-busca{
+    margin: 28px 20vw;
+  }
 }

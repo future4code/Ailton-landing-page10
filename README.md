@@ -20,7 +20,7 @@ Atualizar
 
 ![Página home desktop](./imagens/home-desktop.png)
 ![Página home mobile](./imagens/home-mobile.png)
-![Página busca desktop](url)
-![Página busca mobile](url)
+![Página busca desktop](./imagens/busca-desktop.png)
+![Página busca mobile](./imagens/busca-mobile.png)
 ![Página sobre desktop](./imagens/sobre-desktop.png)
 ![Página sobre mobile](./imagens/sobre-mobile.png)
