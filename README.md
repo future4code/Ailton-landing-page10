@@ -18,9 +18,9 @@
 
 #### Imagens
 
-![Página home desktop](./imagens/home-desktop.png)
-![Página home mobile](./imagens/home-mobile.png)
+![Página home desktop](./imagens/home-desktop2.png)
+![Página home mobile](./imagens/home-mobile2.png)
 ![Página busca desktop](./imagens/busca-desktop.png)
 ![Página busca mobile](./imagens/busca-mobile.png)
 ![Página sobre desktop](./imagens/sobre-desktop.png)
-![Página sobre mobile](./imagens/sobre-mobile.png)
+![Página sobre mobile](./imagens/sobre-mobile2.png)
